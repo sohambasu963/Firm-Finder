@@ -1,0 +1,81 @@
+.question-container {
+    background-color: #e0dcca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    position: relative; /* Add this to make the positioning of the button relative to this container */
+  }
+  
+  .question {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .options-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .option {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .selected {
+    background-color: #524343;
+    color: white;
+    border-color: #524343;
+  }
+  
+  .next-button {
+    position: absolute;
+    bottom: 50px; /* Adjust this value to control the vertical position */
+    right: 50px; /* Adjust this value to control the horizontal position */
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #6b8e23; /* Olive green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #556b2f; /* Darker shade when hovered */
+  }
+
+.investment-input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .investment-input label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .investment-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .investment-input input[type="number"]::-webkit-inner-spin-button,
+  .investment-input input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  
