@@ -41,6 +41,9 @@ const Question2: React.FC = () => {
           onChange={handleInvestmentChange}
         />
       </div>
+      <button className="previous-button">
+        <Link to="/question1">Previous</Link>
+      </button>
       <button className="next-button">
         <Link to="/">Next</Link>
       </button>

@@ -37,11 +37,28 @@
   
   .next-button {
     position: absolute;
-    bottom: 50px; /* Adjust this value to control the vertical position */
-    right: 50px; /* Adjust this value to control the horizontal position */
+    bottom: 50px;
+    right: 50px; 
     padding: 10px 20px;
     font-size: 20px;
-    background-color: #6b8e23; /* Olive green color */
+    background-color: #6b8e23; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .previous-button:hover {
+    background-color: #c82333; 
+  }
+
+  .previous-button {
+    position: absolute;
+    bottom: 50px;
+    left: 50px; 
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #e74c3c;
     color: white;
     border: none;
     border-radius: 5px;
@@ -49,10 +66,10 @@
   }
   
   .next-button:hover {
-    background-color: #556b2f; /* Darker shade when hovered */
+    background-color: #556b2f; 
   }
 
-.investment-input {
+  .investment-input {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
